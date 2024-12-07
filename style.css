@@ -8,11 +8,11 @@
 }
 
 body, html{
-    background-color: #75834d;
+    background-color: #5d9897;
 }
 
 header{
-    background-color: #5D7C7F;
+    background-color: #0b7aa9;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ nav{
 }
 
 nav a{
-    background-color: #6d8e91;
+    background-color: #0c658b;
     color: black;
     font-size: 15px;
     text-decoration: none;
@@ -50,7 +50,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #7ea9ad;
+    background-color: #13a0dd;
     transform: translateX(-5px);
     transition: transform .5s;
 }
@@ -84,7 +84,7 @@ article p{
 }
 
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 727.5px) {
     header{
         flex-flow: column nowrap;
     }
@@ -93,7 +93,7 @@ article p{
         display: block !important;
         cursor: pointer;
         flex: 1 0 100%;
-        background-color: #6d8e91;
+        background-color: #0c658b;
         text-align: center;
         border-radius: 15px;
         margin-top: 10px;
@@ -103,8 +103,9 @@ article p{
     }
 
     span:hover{
-        background-color: #7ea9ad;
+        background-color: #13a0dd;
         transform: translateY(-2px);
+        transition: transform 0.5s;
     }
 
     #menu{
@@ -120,7 +121,7 @@ article p{
     }
 
     article{
-        height: 60vh;
+        height: 55vh;
     }
 
     article h1{
@@ -130,7 +131,7 @@ article p{
 
 @media screen and (max-width: 555px) {
     article{
-        height: 70vh;
+        width: 90vw;
     }
 }
 
